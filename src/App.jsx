@@ -51,7 +51,7 @@ export const App = () => {
         disabled={incompleteTodos.length >= 8}
       />
       {incompleteTodos.length >= 8 && (
-        <p style={{ color: 'red' }}>登録できるtodoは8個までです。タスクを消化してください。 test</p>
+        <p style={{ color: 'red' }}>登録できるtodoは8個までです。タスクを消化してください。</p>
       )}
       <IncompleteTodos
         todos={incompleteTodos}
